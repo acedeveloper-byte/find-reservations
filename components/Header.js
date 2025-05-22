@@ -12,7 +12,7 @@ const Header = () => {
     <Navbar expand="lg" className="navbar-bg-color header-layout">
       <Container>
         <Navbar.Brand as={Link} href="/">
-          <Image src="/logo/logo.png" width={170} height={50} alt="logo" className="logo-layout"/>
+         <img src="/images/logo/logo.png" alt="logo" className="logo-layout" />
          
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav " style={{ fontSize: '15px !important' }} />
