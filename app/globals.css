@@ -1,42 +1,90 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
+*{
   margin: 0;
+  padding: 0;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.header-layout{
+  background-color: #9d00ff26 !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+
+@media only screen and (max-width: 480px) {
+    .mob-nav {
+        line-height: 38px !important;
+    }
+}
+
+.animated-call-btn{
+  background: #411b8b;
+    border: none;
+    border-radius: 1px !important;
+}
+
+
+/* In your CSS or module */
+.full-background {
+  background-image: url('/images/home-poster.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 400px;
+}
+
+
+.title{
+color: #000000c7 !important;
+    font-weight: 800 !important;
+    font-size: 43px !important;
+}
+
+input.form-control:focus {
+  box-shadow: none;
+  border-color: transparent;
+}
+
+
+
+ .search-background{
+  background: #00000047 !important;
+ }
+
+ [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    color: #fff;
+ }
+
+ .btn-group > .btn-group:not(:first-child), .btn-group > :not(.btn-check:first-child) + .btn {
+    margin-left: calc(-1 * var(--bs-border-width));
+    color: #fff;
+}
+
+.btn-group > .btn-group:not(:last-child) > .btn, .btn-group > .btn.dropdown-toggle-split:first-child, .btn-group > .btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    color: #fff;
+
+}
+
+
+
+@media (max-width: 480px){
+  .title{
+    font-size: 26px !important;
   }
+}
+
+.book-now{
+  background-color: #411b8b !important;
+  border: none !important;
+}
+
+.search-btn{
+  background-color: #411b8b !important;
+  border: none !important;
+}
+
+
+.top-flight{
+  color: #411b8b !important;
 }
