@@ -4,7 +4,6 @@ import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaXTwitter } from 'react-icons/fa6';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Link from 'next/link';
 
 
 const Footer = () => {
