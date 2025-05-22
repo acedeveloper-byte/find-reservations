@@ -40,9 +40,9 @@ const SearchEngine = () => {
   };
 
   return (
-<div
-  className="text-white text-center py-5 w-100 full-background">
-    <Container>
+    <div
+      className="text-white text-center py-5 w-100 full-background">
+      <Container>
         <h1 className="fw-bold title">Book with Find-Reservation for Unbeatable Flight Deals!</h1>
         <div className="search-background text-dark rounded-3 shadow p-3 my-5">
           <Row className="g-2 align-items-center">
@@ -56,13 +56,7 @@ const SearchEngine = () => {
                 </ToggleButton>
               </ToggleButtonGroup>
             </Col>
-            <Col xs={12} md="auto">
-              <Form.Select>
-                <option>Economy</option>
-                <option>Premium Economy</option>
-                <option>Business</option>
-              </Form.Select>
-            </Col>
+
           </Row>
 
           <Row className="g-2 mt-3">
@@ -114,15 +108,23 @@ const SearchEngine = () => {
                     </div>
                   ))}
 
+                  <Form.Select className="my-2">
+                    <option>Economy</option>
+                    <option>Premium Economy</option>
+                    <option>Business</option>
+                  </Form.Select>
                   <Button variant="primary" className="w-100 mt-2" onClick={() => setShowTravelerDropdown(false)}>
                     Done
                   </Button>
+
                 </Dropdown.Menu>
+
               </Dropdown>
+
             </Col>
 
             <Col md="auto" className="d-flex align-items-end">
-              <Button  className="w-100 search-btn">
+              <Button className="w-100 search-btn">
                 <FaSearch className="me-2" /> Search
               </Button>
             </Col>
