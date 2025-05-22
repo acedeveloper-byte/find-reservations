@@ -5,6 +5,7 @@ import SearchEngine from "@/components/SearchEngine";
 import Footer from "@/components/Footer";
 import FlightDeals from "@/components/FlightDeals";
 import TopDestination from "@/components/TopDestination";
+import PhoneSticky from "@/components/common/PhoneSticky";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
 <FlightDeals/>
 
 <TopDestination/>
+<PhoneSticky/>
    <Footer/>
    </>
   );
