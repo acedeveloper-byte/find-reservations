@@ -13,9 +13,10 @@ const Footer = () => {
         <Row>
           {/* About Us */}
           <Col md={4} className="mb-4 text-start">
-            <Image src="/logo/logo.png" alt="logo" width={190} height={50} className="mb-2 footer-logo" />
-            <p>
-          At find-reservations, we focus on making your travel dreams a reality that too within your budget. Book with us as soon as possible to save big on your Aeromexico flight booking. Contact us today for great flight deals.   </p>
+                   <img src="/images/logo/logo.png" alt="logo" className="logo-layout" style={{    background: '#fff',
+    padding: '14px'}}/>
+   <p className='my-3'>
+        Visit Find-Reservations to book tickets for your next fight at pocket-friendly fares. We offer exclusive travel deals so you can save extra on your travel expenses. Start planning your trip today, and have an unforgettable journey. </p>
 
             <div className="d-flex gap-3 mt-3">
               <a href="#" className="text-white fs-5"><FaFacebookF /></a>
@@ -45,7 +46,6 @@ const Footer = () => {
                 <ul className="list-unstyled">
                   <li><a href="/privacy-policy" className="text-white text-decoration-none">Privacy Policy</a></li>
                   <li><a href="/terms-and-conditions" className="text-white text-decoration-none">Terms & Condition</a></li>
-                  {/* <li><a href="/disclaimer" className="text-white text-decoration-none">Disclaimer</a></li> */}
                 </ul>
               </Col>
             </Row>
@@ -66,8 +66,8 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className="border-top mt-4 pt-3">
           <p className="text-white small mb-1 text-center">
-            <strong>Disclaimer:</strong> find-reservations operates as an independent third-party travel agency with no direct affiliation with Aeromexico Airlines. 
-
+            <strong>Disclaimer:</strong> 
+Find-Reservations is as an independent third-party online travel portal that is not directly associated with any airline. 
           </p>
           <hr />
           <p className="text-white small mb-0 text-center">

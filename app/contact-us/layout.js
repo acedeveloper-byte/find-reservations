@@ -1,5 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "find-reservations.com | Home",
-  description: "",
+  title: "find-reservations.com | Contact Us",
+  description: " ",
 };
 
 export default function RootLayout({ children }) {

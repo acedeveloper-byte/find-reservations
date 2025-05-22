@@ -132,3 +132,60 @@ input.form-control:focus {
 .logo-layout{
   width: 18rem;
 }
+
+
+
+
+/* contact.css */
+
+
+
+.contact-card,
+.form-card {
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover,
+.form-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card .icon,
+.form-card .icon {
+  color: #411b8b;
+  margin-bottom: 10px;
+}
+
+.contact-card h5,
+.form-card h5 {
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.form-control:focus {
+  border-color: #411b8b;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+.btn-primary {
+  background-color: #411b8b;
+  border-color: #411b8b;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+
+@media (max-width: 767px) {
+  .contact-card,
+  .form-card {
+    padding: 20px;
+  }
+}
