@@ -64,7 +64,7 @@ const flightDeals = [
 const FlightDeals = () => {
   return (
     <Container className="my-5">
-      <h4 className="mb-4 fw-bold text-dark text-center">Top Flight Deals Offers Await!</h4>
+      <h4 className="mb-4 fw-bold text-dark text-center">Top Flight Deals Await!</h4>
       <Row>
         {flightDeals.map((deal, idx) => (
           <Col md={6} key={idx} className="mb-4">
