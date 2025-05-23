@@ -29,7 +29,7 @@ const Page = () => {
                 <FaEnvelope size={40} />
               </div>
               <h5>Email Address</h5>
-              <p>support@aeromexicohighfly.com</p>
+              <p>support@find-reservations.com</p>
             </div>
 
             <div className="contact-card shadow-sm mt-4">

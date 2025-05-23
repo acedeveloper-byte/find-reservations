@@ -15,7 +15,7 @@ export default function Home() {
 <FlightDeals/>
 
 <TopDestination/>
-<PhoneSticky/>
+{/* <PhoneSticky/> */}
    <Footer/>
    </>
   );

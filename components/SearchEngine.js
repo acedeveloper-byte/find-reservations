@@ -66,9 +66,7 @@ const SearchEngine = () => {
                 <Form.Control placeholder="From where?" />
               </InputGroup>
             </Col>
-            <Col md="auto" className="text-center d-flex align-items-center justify-content-center">
-              <FaExchangeAlt className="text-primary fs-4" />
-            </Col>
+           
             <Col md>
               <Form.Label className="text-white fw-bold">To</Form.Label>
               <InputGroup>

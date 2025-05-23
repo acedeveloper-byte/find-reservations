@@ -13,7 +13,7 @@ const Footer = () => {
         <Row>
           {/* About Us */}
           <Col md={4} className="mb-4 text-start">
-                   <img src="/images/logo/logo.png" alt="logo" className="logo-layout" style={{    background: '#fff',
+                   <img src="/images/logo/white-logo.png" alt="logo" className="logo-layout" style={{    
     padding: '14px'}}/>
    <p className='my-3'>
         Visit Find-Reservations to book tickets for your next fight at pocket-friendly fares. We offer exclusive travel deals so you can save extra on your travel expenses. Start planning your trip today, and have an unforgettable journey. </p>
