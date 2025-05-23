@@ -9,7 +9,7 @@ import { FaPhoneVolume } from "react-icons/fa6";
 
 const Header = () => {
   return (
-    <Navbar expand="lg" className="navbar-bg-color header-layout py-3">
+    <>    <Navbar expand="lg" className="navbar-bg-color header-layout py-3" style={{boxShadow: 'rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px'}}>
       <Container>
         <Navbar.Brand as={Link} href="/">
          <img src="/images/logo/logo.png" alt="logo" className="logo-layout" />
@@ -53,6 +53,8 @@ const Header = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </>
+
   );
 };
 
