@@ -2,6 +2,7 @@
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import Image from "next/image";
+import { IoAirplaneOutline } from "react-icons/io5";
 
 const flightDeals = [
   {
@@ -76,7 +77,7 @@ const FlightDeals = () => {
                   <div className="text-muted small">{deal.dateRange}</div>
                   <div className="d-flex align-items-center">
                     <div className="fw-bold me-2">{deal.from}</div>
-                    <span className="me-2">&#9992;</span>
+                    <span className="me-2"><IoAirplaneOutline style={{    color: '#000'}}/></span>
                     <div className="fw-bold me-2">{deal.to}</div>
                   </div>
                   <div className="small text-muted">
