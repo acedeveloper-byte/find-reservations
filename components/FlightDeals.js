@@ -86,7 +86,7 @@ const FlightDeals = () => {
                 <div className="text-end">
                   <div className="fw-bold text-success">Starting From</div>
                   <div className="fs-5 fw-bold">{deal.price}</div>
-                <a href="tel: +1">  <Button  size="sm" className="mt-2 book-now">Book Now</Button></a>
+                <a href="tel: +1 844-762-1214">  <Button  size="sm" className="mt-2 book-now">Book Now</Button></a>
                 </div>
               </Card.Body>
             </Card>

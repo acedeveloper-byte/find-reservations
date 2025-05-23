@@ -41,11 +41,11 @@ const Header = () => {
 
           {/* Right-Aligned Button */}
           <div className="ms-5">
-  <Link href="tel:  +1-000-000-0000" className="text-decoration-none">
+  <Link href="tel:+1 844-762-1214" className="text-decoration-none">
     {/* <a className="text-decoration-none"> */}
       <button className="animated-call-btn d-flex align-items-center gap-2 px-4 py-2  text-white">
         <FaPhoneVolume size={18} />
-        +1-000-000-0000
+      +1 844-762-1214
       </button>
     {/* </a> */}
   </Link>

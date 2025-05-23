@@ -55,7 +55,7 @@ const Footer = () => {
           <Col md={4} className="mb-4 text-center">
             <h5>Contact Us</h5>
             <ul className="list-unstyled">
-              <li>Phone: <a href="tel:+1-000-000-0000 " className='text-decoration-none text-white'>1-000-000-0000</a></li>
+              <li>Phone: <a href="tel: +1 844-762-1214" className='text-decoration-none text-white'>+1 844-762-1214</a></li>
 
               <li>Email: support@find-reservations.com</li>
               <li>Address: 222 NE 44TH ST MIAMI, FL 33138</li>

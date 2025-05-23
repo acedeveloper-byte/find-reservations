@@ -38,8 +38,8 @@ const Page = () => {
               </div>
               <h5>Phone Number</h5>
               <p>
-                <a href="tel:+1-000-000-0000" className="text-decoration-none text-dark">
-                  +1-000-000-0000
+                <a href="tel:+1 844-762-1214" className="text-decoration-none text-dark">
+                +1 844-762-1214
                 </a>
               </p>
             </div>
